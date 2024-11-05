@@ -44,20 +44,20 @@ function searchProduct() {
     const resultsDiv = document.getElementById("results");
     resultsDiv.innerHTML = ""; // Clear previous results
 
-    // Example data
+   
 const products = {
     "handbag": {
         disadvantage: "Leather handbag uses animal products and contributes to deforestation.",
         alternatives: [
             {
-                name: "Cotton Bag",
+                name: "Plant based leather alternative",
                 advantage: "Durable and made from natural fibers.",
-                image: "path/to/cotton-bag.jpg"
+                image: "Screenshot 2024-11-05 134104.png.jpg"
             },
             {
                 name: "Bamboo Handbag",
                 advantage: "Sustainable, lightweight, and biodegradable.",
-                image: "path/to/bamboo-handbag.jpg"
+                image: "Screenshot 2024-11-05 134104.png"
             }
         ]
     },
